@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fe40977-0307-43f5-8274-bbb0135be44d" name="Default Changelist" comment="" />
+    <list default="true" id="4fe40977-0307-43f5-8274-bbb0135be44d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExampleSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExampleSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FirstBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ExampleSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ExampleSpring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FirstBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Конспект/Собеседование на Java  - Spring Alishev.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Конспект/Собеседование на Java  - Spring Alishev.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Собеседование на Java  - Spring Framework Alishev.odt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,9 +45,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="ExampleSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleSpring" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.ExampleSpring" />
-      <module name="spring-app1" />
+      <module name="springapp1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -46,11 +60,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ExampleSpring" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
