@@ -6,6 +6,7 @@ public class MusicPlayer {
     //IoC
     public MusicPlayer(Music music) {
         this.music = music;
+        System.out.println("implement MusicPlayer");
     }
 
     public void playMusic(){
