@@ -1,8 +1,14 @@
 package org.example;
 
 public class ClassicalMusic implements Music {
-    public ClassicalMusic() {
-        System.out.println("implement ClassicalMusic");
+    private ClassicalMusic() {
+        System.out.println("конструктор ClassicalMusic");
+    }
+    // данный конструктор сделали приватным, чтобы его не льзя было создать с помошью new!!!!
+
+    public static ClassicalMusic getClassicalMusic(){
+        System.out.println("ClassicalMusic - фабричный метод");
+        return new ClassicalMusic();
     }
 
     @Override
@@ -16,6 +22,7 @@ public class ClassicalMusic implements Music {
     private void doMyDestroy(){
         System.out.println(" ClassicalMusic.doMyDestroy");
     }
+
 }
 
 
