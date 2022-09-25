@@ -10,6 +10,8 @@ public class ExampleSpring {
         MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class); // стало, так как Spring сам запустил инициализацию и в конструкторе подстаил необходимый параметр
 //        player.setMusic(music); - эта строка не нужна, так как  метод setMusic(Music music) запускается  из файла applucationContext.xml - строка  16, за кулисами.
         player.playMusic();
+        System.out.println(player.getName());
+        System.out.println(player.getVolume());
         context.close();
     }
 }
