@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class RockMusic implements Music{
 
     public RockMusic() {
-        System.out.println("implement Rock Music");
+        System.out.println("initialization Rock Music");
     }
 
     @Override

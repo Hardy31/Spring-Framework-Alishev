@@ -13,7 +13,7 @@ public class MusicPlayer {
 
     @Autowired
     public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic) {
-        System.out.println("implement MusicPlayer - constructor with parameter" + this);
+        System.out.println("initialization MusicPlayer - constructor with parameter" + this);
         this.classicalMusic = classicalMusic;
         this.rockMusic = rockMusic;
     }
@@ -23,10 +23,9 @@ public class MusicPlayer {
 //        this.music = music;
 //    }
 
-    public void playMusic(){
+    public String playMusic(){
 //        System.out.println("MusicPlayer.playMusic:" + music.getSong());
-        System.out.println("MusicPlayer.playMusic:" + classicalMusic.getSong());
-        System.out.println("MusicPlayer.playMusic:" + rockMusic.getSong());
+       return  "MusicPlayer.playMusic:" + classicalMusic.getSong() + " and " + rockMusic.getSong();
 
     }
 }
