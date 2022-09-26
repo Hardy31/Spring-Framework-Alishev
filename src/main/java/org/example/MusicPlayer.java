@@ -5,12 +5,19 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MusicPlayer {
+
+
     private Music music;
 
+
+    public MusicPlayer() {
+
+        System.out.println("implement MusicPlayer - constructor without parameter");
+    }
     @Autowired
-    public MusicPlayer(Music music) {
+    public void setMusic(Music music) {
+        System.out.println("MusicPlayer - DI from setter" + this);
         this.music = music;
-        System.out.println("implement MusicPlayer - constructor with parameter - " + this);
     }
 
     public void playMusic(){
