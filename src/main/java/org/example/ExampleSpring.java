@@ -8,13 +8,8 @@ public class ExampleSpring {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml" );
 
-        Music music = context.getBean("songClassicalMusic", Music.class );
-        MusicPlayer musicPlayer = new MusicPlayer(music);
+        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
         musicPlayer.playMusic();
-
-        Music music2 = context.getBean("songRockMusic", Music.class );
-        MusicPlayer musicPlayer2 = new MusicPlayer(music2);
-        musicPlayer2.playMusic();
 
         context.close();
     }
