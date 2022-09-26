@@ -6,7 +6,7 @@ public class MusicPlayer {
 
     public MusicPlayer(Music music) {
         this.music = music;
-        System.out.println("implement MusicPlayer - constructor with parameter");
+        System.out.println("implement MusicPlayer - constructor with parameter - " + this);
     }
 
     public void playMusic(){
