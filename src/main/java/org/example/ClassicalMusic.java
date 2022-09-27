@@ -2,7 +2,7 @@ package org.example;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("classicalMusic")
 public class ClassicalMusic implements Music {
 
     public ClassicalMusic() {
