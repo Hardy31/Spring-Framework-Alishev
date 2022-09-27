@@ -11,11 +11,6 @@ public class ExampleSpring {
         Computer computer = context.getBean("computer", Computer.class);
         System.out.println(computer.toString());
 
-        System.out.println(context.getBean("classicalMusic", Music.class ));
-        System.out.println(context.getBean("classicalMusic", Music.class ));
-        System.out.println(context.getBean("rockMusic", Music.class ));
-        System.out.println(context.getBean("rockMusic", Music.class ));
-
         context.close();
     }
 }
