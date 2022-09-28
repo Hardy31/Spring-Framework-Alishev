@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-@Component("classicalMusic")
-@Scope("singleton")
+//@Component("classicalMusic")
+//@Scope("singleton")
 public class ClassicalMusic implements Music {
 
     public ClassicalMusic() {
